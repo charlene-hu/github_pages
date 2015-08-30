@@ -1,0 +1,88 @@
+---
+title       : Github Pages
+subtitle    : 
+author      : 
+job         : 
+framework   : html5slides        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : prettify  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## <h1>Github Pages</h1>
+<h4>8/31/2015</h4>
+
+---
+
+## Github Pages
+
+GitHub Pages are public webpages hosted and published through Github.
+
+- User & Organization Pages : One per user account. http://username.github.io/. Content from the master branch will be used to build and publish your GitHub Pages site.
+- Project Pages : One per repository. http://username.github.io/projectname. The gh-pages branch is used to build and publish Project Pages sites.
+- Warning: GitHub Pages sites are publicly available on the internet, even if their repositories are private.
+
+---
+
+## Github Pages - continued
+
+- You can use GitHub's **Automatic Page Generator** to quickly create a website for a project, user, or organization.
+
+- You can set up a custom domain with GitHub Pages.
+
+---
+
+## User &amp; Organization Pages
+
+- Create a new repository use your account name in **username.github.io** format. 
+- Use the Automatic Page Generator to create the site, or
+- Clone the repository.
+- For new website, create an index.html file in username.github.io folder.
+- For existing website, copy existing files to username.github.io folder.
+- Commit and push the files.
+- View github pages at http://username.github.io/.
+
+---
+
+## Project Pages
+
+- Create a new repository or use an existing repository.
+- Create a new branch called gh-pages.
+- Use the Automatic Page Generator to create the site, or
+- For new website, create an index.html page in projectName folder.
+- For existing website, copy existing files to projectName folder.
+- Commit and push the files.
+- View github pages at http://username.github.io/projectName/
+
+---
+
+## Jekyll
+
+- GitHub Pages support Jekyll, a simple, blog-aware static site generator.
+- Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page.
+- Jekyll uses the [Liquid templating](https://github.com/Shopify/liquid/wiki) language to process templates. All of the standard Liquid tags and filters are supported.
+- Jekyll isn’t officially supported on Windows, but [it is still possible to run it](http://jekyllrb.com/docs/windows/#installation) if you&#39;re prepared to get your hands dirty.
+- Jekyll official site http://jekyllrb.com/
+
+---
+
+## Using Jekyll
+
+- Every GitHub Page is run through Jekyll when you push content to a specially named branch within your repository.
+- Because a normal HTML site is also a valid Jekyll site, you don't have to do anything special to keep your standard HTML files unchanged.
+- It is recommended installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.
+- For more information: https://help.github.com/articles/using-jekyll-with-pages/
+
+
+---
+## Useful links:
+
+- https://help.github.com/categories/github-pages-basics/
+- https://github.com/github/pages-gem
+- https://github.com/Shopify/liquid/wiki
+- https://github.com/jekyll/jekyll
+- http://jekyllrb.com/
+- https://www.thinkful.com/learn/a-guide-to-using-github-pages/
+- http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
