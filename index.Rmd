@@ -28,9 +28,9 @@ GitHub Pages are public webpages hosted and published through Github.
 
 ## Github Pages - continued
 
-- You can use GitHub's [Automatic Page Generator](https://help.github.com/categories/github-pages-basics/) to quickly create a website for a project, user, or organization.
+- You can use GitHub's [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) to quickly create a website for a project, user, or organization.
 
-- You can set up a custom domain with GitHub Pages.
+- You can set up a [custom domain](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/) with GitHub Pages.
 
 ---
 
