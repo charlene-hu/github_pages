@@ -18,7 +18,7 @@ knit        : slidify::knit2slides
 
 ## What are Github Pages?
 
-GitHub Pages are public webpages hosted and published through Github.
+[GitHub Pages](http://pages.github.com) are public webpages hosted and published through Github.
 
 - User Pages : One per user account. http://username.github.io/. Content from the master branch will be used to build and publish your GitHub Pages site.
 - Project Pages : One per repository. http://username.github.io/projectname. The gh-pages branch is used to build and publish Project Pages sites.
