@@ -3,7 +3,7 @@ title       : Github Pages
 subtitle    : 
 author      : 
 job         : 
-framework   : html5slides        # {io2012, html5slides, shower, dzslides, ...}
+framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
@@ -12,11 +12,11 @@ knit        : slidify::knit2slides
 ---
 
 ## <h1>Github Pages</h1>
-<h4>8/31/2015</h4>
+<h3>8/31/2015</h3>
 
 ---
 
-## Github Pages
+## What are Github Pages?
 
 GitHub Pages are public webpages hosted and published through Github.
 
@@ -26,35 +26,34 @@ GitHub Pages are public webpages hosted and published through Github.
 
 ---
 
-## Github Pages - continued
+## What are Github Pages?
 
-- You can use GitHub's **Automatic Page Generator** to quickly create a website for a project, user, or organization.
+- You can use GitHub's [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) to quickly create a website for a project, user, or organization.
 
-- You can set up a custom domain with GitHub Pages.
+- You can set up a [custom domain](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/) with GitHub Pages.
 
 ---
 
-## User &amp; Organization Pages
+## Creating User &amp; Organization Pages
 
 - Create a new repository use your account name in **username.github.io** format. 
-- Use the Automatic Page Generator to create the site, or
-- Clone the repository.
-- For new website, create an index.html file in username.github.io folder.
+- For new website, use the Automatic Page Generator to create the site, or
+- Clone the repository, then create an index.html file in username.github.io folder.
 - For existing website, copy existing files to username.github.io folder.
 - Commit and push the files.
 - View github pages at http://username.github.io/.
 
 ---
 
-## Project Pages
+## Creating Project Pages
 
 - Create a new repository or use an existing repository.
 - Create a new branch called gh-pages.
-- Use the Automatic Page Generator to create the site, or
-- For new website, create an index.html page in projectName folder.
-- For existing website, copy existing files to projectName folder.
+- For new website, use the Automatic Page Generator to create the site, or
+- Create an index.html page in projectname folder.
+- For existing website, copy existing files to projectname folder.
 - Commit and push the files.
-- View github pages at http://username.github.io/projectName/
+- View github pages at http://username.github.io/projectname/
 
 ---
 
