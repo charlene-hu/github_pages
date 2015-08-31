@@ -82,10 +82,10 @@ https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 ---
 
 ## Useful links:
+- http://pages.github.com
 - https://help.github.com/categories/github-pages-basics/
 - https://github.com/github/pages-gem
 - https://github.com/Shopify/liquid/wiki
 - https://github.com/jekyll/jekyll
 - http://jekyllrb.com/
-- https://www.thinkful.com/learn/a-guide-to-using-github-pages/
 - http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
