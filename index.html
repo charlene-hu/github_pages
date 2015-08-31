@@ -63,14 +63,13 @@
 <li>For existing website, copy existing files to projectname folder.</li>
 <li>Commit and push the files.</li>
 <li>View GitHub Pages at <a href="http://username.github.io/projectname/">http://username.github.io/projectname/</a></li>
-<li>These slides are GitHub Project Pages.</li>
 </ul>
 
 </section>
 <section class='' data-state='' id='slide-6'>
   <h2>Using Jekyll with Pages</h2>
   <ul>
-<li>In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog-aware static site generator.</li>
+<li>In addition to supporting regular HTML content, GitHub Pages support <a href="http://jekyllrb.com/">Jekyll</a>, a simple, blog-aware static site generator.</li>
 <li>Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page.</li>
 <li>Every GitHub Page is run through Jekyll when you push content to a specially named branch within your repository.</li>
 <li>Because a normal HTML site is also a valid Jekyll site, you don&#39;t have to do anything special to keep your standard HTML files unchanged.</li>
@@ -83,7 +82,6 @@
 <li>GitHub recommends installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.</li>
 <li>For more information on installing Jekyll: <a href="https://help.github.com/articles/using-jekyll-with-pages/">https://help.github.com/articles/using-jekyll-with-pages/</a></li>
 <li>Jekyll isn’t officially supported on Windows, but <a href="http://jekyllrb.com/docs/windows/#installation">it is still possible to run it</a> if you&#39;re prepared to get your hands dirty.</li>
-<li>To know more about Jekyll, visit <a href="http://jekyllrb.com/">http://jekyllrb.com/</a></li>
 </ul>
 
 </section>
@@ -120,7 +118,7 @@
     history: true,
     center: true,
     theme: Reveal.getQueryHash().theme || 'default', 
-    transition: Reveal.getQueryHash().transition || 'fade', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
     dependencies: [
     // Cross-browser shim that fully implements classList -
     // https://github.com/eligrey/classList.js/

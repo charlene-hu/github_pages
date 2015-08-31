@@ -54,13 +54,13 @@ GitHub Pages are public webpages hosted and published through Github.
 - For existing website, copy existing files to projectname folder.
 - Commit and push the files.
 - View GitHub Pages at http://username.github.io/projectname/
-- These slides are GitHub Project Pages.
+
 
 ---
 
 ## Using Jekyll with Pages
 
-- In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog-aware static site generator.
+- In addition to supporting regular HTML content, GitHub Pages support [Jekyll](http://jekyllrb.com/), a simple, blog-aware static site generator.
 - Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page.
 - Every GitHub Page is run through Jekyll when you push content to a specially named branch within your repository.
 - Because a normal HTML site is also a valid Jekyll site, you don't have to do anything special to keep your standard HTML files unchanged.
@@ -71,7 +71,6 @@ GitHub Pages are public webpages hosted and published through Github.
 - GitHub recommends installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.
 - For more information on installing Jekyll: https://help.github.com/articles/using-jekyll-with-pages/
 - Jekyll isn’t officially supported on Windows, but [it is still possible to run it](http://jekyllrb.com/docs/windows/#installation) if you&#39;re prepared to get your hands dirty.
-- To know more about Jekyll, visit http://jekyllrb.com/
 
 ---
 
