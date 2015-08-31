@@ -1,15 +1,14 @@
 ---
-title       : Github Pages
+title       : GitHub Pages
 subtitle    : 
 author      : 
 job         : 
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : prettify # {highlight.js, prettify, highlight}
+highlighter : highlight.js # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-transition  : Fade
 ---
 
 ## <h1>Github Pages</h1>
@@ -27,7 +26,7 @@ GitHub Pages are public webpages hosted and published through Github.
 
 ---
 
-## What are Github Pages?
+## What are Github Pages? - continued
 
 - You can use GitHub's [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) to quickly create a website for a project, user, or organization.
 
@@ -42,7 +41,7 @@ GitHub Pages are public webpages hosted and published through Github.
 - Clone the repository, then create an index.html file in username.github.io folder.
 - For existing website, copy existing files to username.github.io folder.
 - Commit and push the files.
-- View github pages at http://username.github.io/.
+- View GitHub pages at http://username.github.io/.
 
 ---
 
@@ -54,31 +53,35 @@ GitHub Pages are public webpages hosted and published through Github.
 - Create an index.html page in projectname folder.
 - For existing website, copy existing files to projectname folder.
 - Commit and push the files.
-- View github pages at http://username.github.io/projectname/
+- View GitHub Pages at http://username.github.io/projectname/
+- These slides are GitHub Project Pages.
 
 ---
 
-## Jekyll
+## Using Jekyll with Pages
 
-- GitHub Pages support Jekyll, a simple, blog-aware static site generator.
+- In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog-aware static site generator.
 - Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page.
-- Jekyll uses the [Liquid templating](https://github.com/Shopify/liquid/wiki) language to process templates. All of the standard Liquid tags and filters are supported.
-- Jekyll isn’t officially supported on Windows, but [it is still possible to run it](http://jekyllrb.com/docs/windows/#installation) if you&#39;re prepared to get your hands dirty.
-- Jekyll official site http://jekyllrb.com/
-
----
-
-## Using Jekyll
-
 - Every GitHub Page is run through Jekyll when you push content to a specially named branch within your repository.
 - Because a normal HTML site is also a valid Jekyll site, you don't have to do anything special to keep your standard HTML files unchanged.
-- It is recommended installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.
-- For more information: https://help.github.com/articles/using-jekyll-with-pages/
-
 
 ---
-## Useful links:
 
+## Using Jekyll with Pages - continued
+- GitHub recommends installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.
+- For more information on installing Jekyll: https://help.github.com/articles/using-jekyll-with-pages/
+- Jekyll isn’t officially supported on Windows, but [it is still possible to run it](http://jekyllrb.com/docs/windows/#installation) if you&#39;re prepared to get your hands dirty.
+- To know more about Jekyll, visit http://jekyllrb.com/
+
+---
+
+## Setting up a custom domain with GitHub Pages
+GitHub provides step-by-step instructions on how to set up a custom domain with your GitHub Pages. 
+https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
+
+---
+
+## Useful links:
 - https://help.github.com/categories/github-pages-basics/
 - https://github.com/github/pages-gem
 - https://github.com/Shopify/liquid/wiki
