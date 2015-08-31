@@ -21,7 +21,7 @@ transition  : Fade
 
 GitHub Pages are public webpages hosted and published through Github.
 
-- User & Organization Pages : One per user account. http://username.github.io/. Content from the master branch will be used to build and publish your GitHub Pages site.
+- User Pages : One per user account. http://username.github.io/. Content from the master branch will be used to build and publish your GitHub Pages site.
 - Project Pages : One per repository. http://username.github.io/projectname. The gh-pages branch is used to build and publish Project Pages sites.
 - Warning: GitHub Pages sites are publicly available on the internet, even if their repositories are private.
 
@@ -35,7 +35,7 @@ GitHub Pages are public webpages hosted and published through Github.
 
 ---
 
-## Creating User &amp; Organization Pages
+## Creating User Pages
 
 - Create a new repository use your account name in **username.github.io** format. 
 - For new website, use the Automatic Page Generator to create the site, or
